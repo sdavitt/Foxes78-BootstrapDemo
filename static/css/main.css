@@ -1,5 +1,7 @@
 #header {
     height: 20vh;
+    max-width: 100%;
+    margin: 0;
     background-image: url(../images/desert.jpg);
     background-size: cover;
     background-position: left top;
@@ -11,4 +13,19 @@
 
 .container-fluid{
     padding: 0;
+    margin: 0;
+}
+
+.cardimages{
+    height: 25vh;
+    width: auto;
+    object-fit: contain;
+}
+
+body{
+    width: 100%;
+}
+
+#fenneccard{
+    height: 50vh;
 }
